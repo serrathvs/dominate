@@ -1,0 +1,172 @@
+
+ body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background: url('./IMAGENES/imagen fondo skz.jpg') no-repeat center center fixed;
+    background-size: cover; 
+    color: #fff; 
+    padding-top: 60px; 
+    text-align: center; 
+}
+
+
+header {
+    background: rgba(0, 0, 0, 0.7); 
+    color: #fff;
+    position: relative; 
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    padding: 20px 0; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); 
+    text-align: center; 
+}
+
+header .hero {
+    margin: 0 auto;
+    max-width: 1200px; 
+    padding: 0 20px; 
+}
+
+header .hero .logo {
+    max-width: 150px; 
+    margin-bottom: 10px;
+}
+
+header .hero h1, header .hero h2 {
+    margin: 0;
+    padding: 5px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 15px;
+    transition: background 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background: rgba(255, 255, 255, 0.2); 
+    border-radius: 5px;
+    color: #fff;
+}
+
+
+section {
+    padding: 40px 20px; 
+    text-align: center; 
+}
+
+
+.intro .tour-image {
+    width: 100%;
+    height: auto;
+    max-width: 1200px; 
+    margin: 20px 0; 
+}
+
+
+.dates table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+}
+
+.dates th, .dates td {
+    border: 1px solid #fff;
+    padding: 10px;
+    text-align: left;
+}
+
+.dates th {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px; 
+    margin: 0 auto;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    max-width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form button {
+    width: 100%;
+    max-width: 150px;
+}
+
+
+footer {
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.5);
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
